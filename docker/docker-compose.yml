@@ -1,0 +1,14 @@
+
+
+services:
+  cowrie:
+    build: .
+    container_name: cowrie-honeypot
+    ports:
+      - "2222:2222"
+      - "2223:2223"
+    volumes:
+      - ./cowrie/cowrie.cfg:/cowrie/etc/cowrie.cfg
+      - ./cowrie/userdb.txt:/cowrie/etc/userdb.txt
+      - ../reports/logs:/cowrie/var/log/cowrie
+    restart: unless-stopped

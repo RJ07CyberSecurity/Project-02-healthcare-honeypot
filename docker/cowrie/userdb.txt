@@ -1,0 +1,8 @@
+root:x:*
+admin:x:*
+administrator:x:*
+user:x:*
+support:x:*
+guest:x:*
+ubnt:x:*
+pi:x:*
