@@ -4,6 +4,8 @@ services:
   cowrie:
     build: .
     container_name: cowrie-honeypot
+
+    
     ports:
       - "2222:2222"
       - "2223:2223"
