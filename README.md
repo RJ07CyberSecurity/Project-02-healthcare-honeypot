@@ -9,6 +9,10 @@ architect a virtual environment consisting of simulated, low-interaction vulnera
 proactively deceive attackers, trap them, and analyze their behavioral patterns and exploit
 techniques before they can reach actual medical equipment.
 
+
+
+
+
 Structure of file system.
 
 healthcare-honeypot/
